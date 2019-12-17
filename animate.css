@@ -1,5 +1,6 @@
 .fadein {
   animation: fadeIn 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .fadeinleft {
   animation: fadeInLeft 1s ease-in-out;
@@ -8,6 +9,9 @@
 .fadeinbottom {
   animation: fadeInBottom 1s ease-in-out;
   animation-fill-mode: forwards;
+}
+.toggletopdown {
+  animation: toggleTopDown 1s ease-in-out;
 }
 @keyframes fadeIn {
   0% {
@@ -38,5 +42,14 @@
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes toggleTopDown {
+  0% {
+    top: -3rem;
+  }
+  100% {
+    top: 0;
   }
 }

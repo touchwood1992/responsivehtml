@@ -23,6 +23,7 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="normal.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="animate.css" />
   </head>
@@ -34,7 +35,7 @@
           <a href="#" class="logo-link">
             <img src="imgs/logo.png" alt="Home Page" />
           </a>
-          <ul class="main-menu">
+          <ul class="main-menu d-flex">
             <li><a href="">Home</a></li>
             <li>
               <a href="">Services</a>
@@ -60,7 +61,7 @@
       </nav>
     </header>
 
-    <main>
+    <main id="site-container">
       <section id="home-slider-container" class="home-slider-container">
         <div class="hero-text container">
           <h1 class="hero-text__title main-title fadein">
@@ -83,7 +84,7 @@
           <h2 class="home-services__title secondary-title">
             Professional Vehicle Transport – Maximum Efficiency
           </h2>
-          <div class="row icon-container">
+          <div class="row icon-container doanimate">
             <div class="col-md-3">
               <div class="icon-item-container">
                 <i class="im im-idea service-icon"></i>
@@ -133,7 +134,7 @@
           <h2 class="secondary-title">
             We are at your disposal for a consultation at any time
           </h2>
-          <div class="row contact-container">
+          <div class="row contact-container doanimate">
             <div class="col-md-6">
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -161,14 +162,14 @@
           </div>
         </div>
       </section>
-      <section id="home-banner" class="main-section">
+      <section id="home-banner" class="main-section doanimate">
         <div class="container text-center">
           <img src="imgs/process.png" alt="Our Process" class="img-fluid" />
         </div>
       </section>
     </main>
 
-    <footer id="site-footer">
+    <footer id="site-footer" class="doanimate">
       <div class="container">
         <div class="row">
           <div class="col-md-9">
@@ -177,7 +178,7 @@
             </h3>
             <div class="row">
               <div class="col-md-4 footer-location-item">
-                <h3 class="footer-inner-menu-label">
+                <h3 class="footer-inner-menu-label d-flex">
                   Expat-Services-Germany
                 </h3>
                 <p>Alsterterrasse 2</p>
@@ -223,11 +224,11 @@
       <div class="copyright">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-9 copyright__text text-center">
+            <div class="col-md-9 copyright__text text-center d-flex">
               &copy; Copyrights 2019 Interleva. All rights reserved.
             </div>
             <div class="col-md-3 social-icons-contaier">
-              <ul class="social-icons">
+              <ul class="social-icons d-flex">
                 <li>
                   <a href="#"><i class="im im-facebook"></i></a>
                 </li>

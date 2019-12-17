@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --lighter-color: rgba(32, 189, 103, 0.5);
+  --light-color: rgb(32, 189, 103);
+  --dark-color: rgb(17, 112, 60);
+}
