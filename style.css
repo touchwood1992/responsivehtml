@@ -150,6 +150,7 @@ body {
 }
 .stickme .main-nav.navbar {
   box-shadow: 0 0.1rem 0.75rem -0.2rem rgba(0, 0, 0, 1);
+  padding: 0.3rem 0;
 }
 .stickme .main-menu > li:hover > ul {
   background-color: #333;
@@ -188,7 +189,7 @@ body {
 #home-slider-container {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("imgs/hero.jpg") no-repeat center center/cover;
-  height: calc(100vh - 4.7rem);
+  height: calc(65vh);
   position: relative;
 }
 .hero-text {
@@ -235,6 +236,18 @@ body {
   display: block;
   color: var(--light-color);
   font-size: 3rem;
+  transition: transform 0.5s ease-in-out;
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.icon-item-container:hover .service-icon {
+  background-color: #f1f1f1;
+  border-radius: 100%;
+  transform: scale(1.07) rotate(360deg);
 }
 .home-services__paragraph {
   line-height: 1.7;
